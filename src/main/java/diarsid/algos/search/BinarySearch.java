@@ -1,4 +1,4 @@
-package diarsid.algos;
+package diarsid.algos.search;
 
 /**
  * @author Diarsid

@@ -1,9 +1,9 @@
-package diarsid.algos;
+package diarsid.algos.search;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-import static diarsid.algos.BinarySearch.search;
+import static diarsid.algos.search.BinarySearch.search;
 
 /** *
  * @author Diarsid
