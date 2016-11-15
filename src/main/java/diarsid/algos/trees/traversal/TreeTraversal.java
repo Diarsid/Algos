@@ -39,18 +39,6 @@ public class TreeTraversal {
         breadthFirst(n1);
     }
     
-    public static void preOrder(TreeNode root) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
-        stack.push(root);
-        
-        TreeNode current;
-        while ( ! stack.isEmpty() ) {
-            current = stack.pop();
-            visit(current);
-            
-        }
-    }
-    
     public static void breadthFirst(TreeNode root) {
         Deque<TreeNode> stack = new ArrayDeque<>();
         stack.push(root);        
